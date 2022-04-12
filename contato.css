@@ -1,0 +1,97 @@
+/* seção de contato */
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 100%;
+
+}
+
+#contato>h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #132235;
+}
+
+#meios-de-contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* lado dos telefones e emails */
+
+#contato-direto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #132235;
+    color: white;
+    padding-left: 15px;
+}
+
+#contato-direto>div{
+    margin-bottom: 10px;
+}
+
+#contato-direto p{
+    color: #6D7783;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+/* lado do formulário */
+
+#formulario-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #132235;
+}
+
+#formulario-contato input{
+    width: 80%;
+    border: 2px solid #6DDAD3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#formulario-contato textarea{
+    width: 80%;
+    border: 2px solid #6DDAD3;
+    border-radius: 10px;
+}
+
+#formulario-contato button{
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    background-color: #6DDAD3;
+    margin-top: 10px;
+    color: #132235;
+    transition: color 1500ms;
+    transition: background-color 1000ms;
+}
+
+#formulario-contato button:hover{
+    background-color: #132235;
+    color: #6DDAD3;
+    transition: color 1500ms;
+    transition: background-color 1000ms;
+}
+
+@media screen and (max-width: 480px) {
+    #meios-de-contato{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    #contato-direto{
+        padding: 10px;
+    }
+
+    #formulario-contato{
+        padding: 10px 0;
+    }
+
+}
