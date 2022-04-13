@@ -8,4 +8,70 @@ body{
     width: 100%;
     min-width: 100vw;
     min-height: 100vh;
+    background-color: #132235;
+}
+
+header{
+    background-color: #132235;
+    display: flex;
+    align-items: center
+}
+
+header img{
+       
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+  
+}
+
+/* carousel */
+
+.galery{
+    margin-left: 1%;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+ .galery .fotos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+    width: 19.9%;
+}
+
+/* animação do carousel */
+
+@keyframes animacao{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.icons a {
+     font-size: 1.5em; color: white;
+     margin-right: 4%;
+}
+
+a:hover{
+    color:#6ddad3;
 }
