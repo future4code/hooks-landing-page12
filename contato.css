@@ -11,7 +11,7 @@
 #contato>h1{
     text-align: center;
     margin-bottom: 40px;
-    color: #132235;
+    color: #6DDAD3;
 }
 
 #meios-de-contato{
@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #132235;
+    color:  #6DDAD3;
 }
 
 #formulario-contato input{

@@ -8,4 +8,37 @@ body{
     width: 100%;
     min-width: 100vw;
     min-height: 100vh;
+    background-color: #132235;
+}
+
+header{
+    background-color: #132235;
+    display: flex;
+    align-items: center
+}
+
+header img{
+       
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+  
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.icons a {
+     font-size: 1.5em; color: white;
+     margin-right: 4%;
+}
+
+a:hover{
+    color:#6ddad3;
 }
