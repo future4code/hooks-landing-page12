@@ -75,3 +75,42 @@ footer{
 a:hover{
     color:#6ddad3;
 }
+
+
+@media screen and (max-width: 480px) {
+    header img{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 10px;
+        
+    }
+    .galery{
+        margin-left: 1%;
+        width: 403px;
+        height: 225px;
+        overflow: hidden;
+    }
+
+    .galery .fotos img{
+        width: 19.9%;
+    }
+
+    @keyframes animacao{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -303%;}
+    95%{margin-left: -303%;}
+    100%{margin-left: -400%;}
+       
+}
+}
+
+
+
+
+
+
