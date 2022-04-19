@@ -1,9 +1,9 @@
 # landing-page-template
 
 ## Autores:
-*Bryan Fernandes (contato)
-*Gabriele Peroni (cabeçalho e rodapé)
-*Karine Lima (quem somos)
+*Bryan Fernandes (contato) <br />
+*Gabriele Peroni (cabeçalho e rodapé) <br />
+*Karine Lima (quem somos) <br />
 
 ## link do surge: scrawny-quarter.surge.sh
 
