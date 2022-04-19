@@ -5,7 +5,7 @@
 *Gabriele Peroni (cabeçalho e rodapé) <br />
 *Karine Lima (quem somos) <br />
 
-## link do surge: scrawny-quarter.surge.sh
+## link do surge: <a>scrawny-quarter.surge.sh</a>
 
 ## imagens:
 
