@@ -28,7 +28,7 @@ header img{
 /* carousel */
 
 .galery{
-    margin-left: 1%;
+    margin:auto;
     width: 640px;
     height: 360px;
     overflow: hidden;
@@ -104,9 +104,23 @@ a:hover{
     70%{margin-left: -200%;}
     75%{margin-left: -303%;}
     95%{margin-left: -303%;}
-    100%{margin-left: -400%;}
-       
+    100%{margin-left: -400%;}      
 }
+
+#quem-somos{
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    padding-right:15px;
+    color:white;
+    margin:auto;
+}
+
+#quem-somos p {
+    width: 80vw;
+
+}
+
 }
 
 
