@@ -4,9 +4,14 @@
     font-family: "Times New Roman";
 }
 
+html{
+    max-width: 100vw;
+}
+
 body{
     width: 100%;
     min-width: 100vw;
+    max-width: 100vw;
     min-height: 100vh;
     background-color: #132235;
 }
@@ -62,8 +67,9 @@ header img{
 footer{
     bottom: 0;
     width: 100%;
+    max-width: 100%;
     position: relative;
-    padding: 3% 5%;
+    padding: 3% 0;
     text-align: center;
 }
 
