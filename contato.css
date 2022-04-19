@@ -74,7 +74,8 @@
 }
 
 #formulario-contato button:hover{
-    background-color: #132235;
+    background-color: white;
+    border:1px solid #6DDAD3;
     color: #6DDAD3;
     transition: color 1500ms;
     transition: background-color 1000ms;
